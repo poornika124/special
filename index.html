@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Roses -->
+<div class="roses"></div>
+
+<!-- Progress bar -->
+<div id="progress"></div>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+  <h1>Hey chella mamaa..... ❤️</h1>
+  <p>I made this… only for you with love...</p>
+  <p>Happy valentine's day da mama...</p>
+  <button onclick="nextPage()">Enter ✨</button>
+</section>
+
+<!-- PAGE 2 – STORY FLOW -->
+<section class="page" id="page2">
+  <h2 class="story-title">Our Love Story 🌙</h2>
+
+  <div class="story-container">
+
+    <div class="story-block left">
+      <img src="./story/story1.jpeg">
+      <p>The day our story began ❤️</p>
+    </div>
+
+    <div class="story-block right">
+      <img src="./story/story2.jpeg">
+      <p>From strangers to something special ✨</p>
+    </div>
+
+    <div class="story-block left">
+      <img src="./story/story3.jpeg">
+      <p>Late night talks & silly laughs 😄</p>
+    </div>
+
+    <div class="story-block right">
+      <img src="./story/story4.jpeg">
+      <p>Falling for you every single day 💕</p>
+    </div>
+
+    <div class="story-block left">
+      <img src="./story/story5.jpeg">
+      <p>Holding on through everything 🤍</p>
+    </div>
+
+    <div class="story-block center">
+      <img src="./story/story6.jpeg">
+      <p>Forever… with you ♾️❤️</p>
+    </div>
+
+  </div>
+
+  <button onclick="nextPage()" class="story-btn">Next 💕</button>
+</section>
+
+<!-- PAGE 3 – OUR CHATS STORY -->
+<section class="page" id="page3">
+  <h2 class="chat-title">Our Chats 💬</h2>
+
+  <div class="chat-container">
+
+    <!-- Proposal Chat -->
+    <div class="chat-block left highlight">
+      <img src="./chats/chat1.jpeg">
+      <p>The moment I proposed… my heart was racing 🥺❤️</p>
+    </div>
+
+    <div class="chat-block right">
+      <img src="./chats/chat2.jpeg">
+      <p>Endless good mornings & good nights ☀️🌙</p>
+    </div>
+
+    <div class="chat-block left">
+      <img src="./chats/chat3.jpeg">
+      <p>Random talks that meant everything 💕</p>
+    </div>
+
+    <div class="chat-block right">
+      <img src="./chats/chat4.jpeg">
+      <p>Laughs, fights & making up again 😄🤍</p>
+    </div>
+
+    <div class="chat-block left">
+      <img src="./chats/chat5.jpeg">
+      <p>You became my safe place 🫶</p>
+    </div>
+
+    <div class="chat-block center">
+      <img src="./chats/chat6.jpeg">
+      <p>And here we are… still choosing each other ♾️❤️</p>
+    </div>
+
+  </div>
+
+  <button onclick="nextPage()">Next 💌</button>
+</section>
+
+
+<!-- PAGE 4 – OUR VIDEO -->
+<section class="page" id="page4">
+  <div class="video-card">
+    <h2>Our Video 🎥</h2>
+
+    <div class="video-wrapper">
+      <video controls poster="./video/thumb.jpg">
+        <source src="./video/ourvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <p class="video-caption">
+      Watch this,we will recreate this photos in future... 💕
+    </p>
+  </div>
+
+  <button onclick="nextPage()">Next 🌹</button>
+</section>
+
+<!-- PAGE 5 – MY VOICE -->
+<section class="page" id="page5">
+  <div class="voice-card">
+    <h2>my promise 🥺</h2>
+
+    <!-- Audio with controls -->
+    <audio controls>
+      <source src="./voice/voice.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p class="voice-caption">
+      Happy valentine's day mama... 💖
+    </p>
+  </div>
+
+  <button onclick="nextPage()">Next ❤️</button>
+</section>
+
+
+
+
+<!-- PAGE 6 -->
+<section class="page" id="page6">
+  <h1>I Choose You.</h1>
+  <p>
+    Today. Tomorrow.<br>
+    Always you ❤️🌹
+  </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
